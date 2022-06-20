@@ -22,8 +22,8 @@ Additionals
 - git remote set-url origin <repo name> (to correct access right repo)
 
 Generating SSH key and installing
-- ssh-keygen -t ed25519 -C "aungmyintoo548@gmail.com" <OR> ssh-keygen -t rsa <OR> ssh-keygen
-- pbcopy < ~/.ssh/id_ed25519.pub <OR> cat ~/.ssh/id_rsa.pub | pbcopy
+- ssh-keygen -t ed25519 -C "aungmyintoo548@gmail.com" (OR) ssh-keygen -t rsa (OR) ssh-keygen
+- pbcopy < ~/.ssh/id_ed25519.pub (OR) cat ~/.ssh/id_rsa.pub | pbcopy
   
 A few resources to get you started if this is your first Flutter project:
 
