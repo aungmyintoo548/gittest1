@@ -1,6 +1,6 @@
 # Gittest
 
-A new Flutter project with git testing and separating environments with flavor.
+A new Flutter project with git testing.
 
 ## Getting Started
 
@@ -24,10 +24,6 @@ Additionals
 Generating SSH key and installing
 - ssh-keygen -t ed25519 -C "aungmyintoo548@gmail.com" (OR) ssh-keygen -t rsa (OR) ssh-keygen
 - pbcopy < ~/.ssh/id_ed25519.pub (OR) cat ~/.ssh/id_rsa.pub | pbcopy
-
-Separating 
-- [Lab: separating multi environment medium](https://medium.com/@matt.goodson.business/separating-build-environment-configurations-in-flutter-with-firebase-doing-it-the-right-way-c72c3ad3621f)
-                                
                                 
 A few resources to get you started if this is your first Flutter project:
 
