@@ -29,9 +29,9 @@ Additionals
 - git remote set-url origin [repo name] (to correct access right repo)
 
 git config user.name "aungmyintoo"
- - git config user.email "aungmyintoo3umg@gmail.com"
+ - git config user.email "aungmyintoo@gmail.com"
  - git config --global user.name "aungmyintoo"
- - git config --global user.email "aungmyintoo3umg@gmail.com"
+ - git config --global user.email "aungmyintoo@gmail.com"
  - git config --list
  
  - git pull --rebase
