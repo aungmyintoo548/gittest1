@@ -21,14 +21,14 @@ This project is a starting point for a Flutter application.
  
 git branch -M main
  
-Additionals
+## Additionals
 
 - git remote -v (to check repo)
 - git branch (to check where your branch)
 - git checkout [branch name] (to change branch)
 - git remote set-url origin [repo name] (to correct access right repo)
 
-git config user.name "aungmyintoo"
+ - git config user.name "aungmyintoo"
  - git config user.email "aungmyintoo@gmail.com"
  - git config --global user.name "aungmyintoo"
  - git config --global user.email "aungmyintoo@gmail.com"
@@ -36,7 +36,7 @@ git config user.name "aungmyintoo"
  
  - git pull --rebase
 
-Generating SSH key and installing
+## Generating SSH key and installing
 - ssh-keygen -t ed25519 -C "aungmyintoo548@gmail.com" (OR) ssh-keygen -t rsa (OR) ssh-keygen
 - pbcopy < ~/.ssh/id_ed25519.pub (OR) cat ~/.ssh/id_rsa.pub | pbcopy
                                 
@@ -50,27 +50,50 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 
-Git global setup
+## Git global setup
+
 git config --global user.name "name"
+
 git config --global user.email "aungmyitoo@gmail.com"
-Create a new repository
+
+## Create a new repository
+
 git clone git@gitldfsadfasfdt.git
+
 cd bethefirstagent
+
 git switch -c main
+
 touch README.md
+
 git add README.md
+
 git commit -m "add README"
+
 git push -u origin main
-Push an existing folder
+
+## Push an existing folder
+
 cd existing_folder
+
 git init --initial-branch=main
+
 git remote add origin git@gitlab.com:sdfsadfsafasdf.git
+
 git add .
+
 git commit -m "Initial commit"
+
 git push -u origin main
-Push an existing Git repository
+
+## Push an existing Git repository
+
 cd existing_repo
+
 git remote rename origin old-origin
+
 git remote add origin git@gitlab.com:sdfsadfsa.git
+
 git push -u origin --all
+
 git push -u origin --tags
