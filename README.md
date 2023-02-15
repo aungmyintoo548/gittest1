@@ -48,3 +48,29 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+Git global setup
+git config --global user.name "name"
+git config --global user.email "aungmyitoo@gmail.com"
+Create a new repository
+git clone git@gitldfsadfasfdt.git
+cd bethefirstagent
+git switch -c main
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin main
+Push an existing folder
+cd existing_folder
+git init --initial-branch=main
+git remote add origin git@gitlab.com:sdfsadfsafasdf.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+Push an existing Git repository
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin git@gitlab.com:sdfsadfsa.git
+git push -u origin --all
+git push -u origin --tags
