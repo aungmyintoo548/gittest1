@@ -8,12 +8,19 @@ This project is a starting point for a Flutter application.
 
 
 1.  git init
-2.  git remote add origin <remote name> 
-2.1 git checkout -b <new branch name>
-3.  git add .
-4.  git commit -m "<commit name>"
-5.  git push --set-upstream origin <branch name>
 
+2.  git remote add origin <remote name> 
+ 
+2.1 git checkout -b <new branch name>
+ 
+3.  git add .
+ 
+4.  git commit -m "<commit name>"
+ 
+5.  git push --set-upstream origin <branch name>
+ 
+git branch -M main
+ 
 Additionals
 
 - git remote -v (to check repo)
