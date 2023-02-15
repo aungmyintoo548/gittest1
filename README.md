@@ -21,6 +21,12 @@ Additionals
 - git checkout <branch name> (to change branch)
 - git remote set-url origin <repo name> (to correct access right repo)
 
+git config user.name "aungmyintoo"
+ - git config user.email "aungmyintoo3umg@gmail.com"
+ - git config --global user.name "aungmyintoo"
+ - git config --global user.email "aungmyintoo3umg@gmail.com"
+ - git config --list
+
 Generating SSH key and installing
 - ssh-keygen -t ed25519 -C "aungmyintoo548@gmail.com" (OR) ssh-keygen -t rsa (OR) ssh-keygen
 - pbcopy < ~/.ssh/id_ed25519.pub (OR) cat ~/.ssh/id_rsa.pub | pbcopy
