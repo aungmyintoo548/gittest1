@@ -26,6 +26,8 @@ git config user.name "aungmyintoo"
  - git config --global user.name "aungmyintoo"
  - git config --global user.email "aungmyintoo3umg@gmail.com"
  - git config --list
+ 
+ - git pull --rebase
 
 Generating SSH key and installing
 - ssh-keygen -t ed25519 -C "aungmyintoo548@gmail.com" (OR) ssh-keygen -t rsa (OR) ssh-keygen
