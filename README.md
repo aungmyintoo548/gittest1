@@ -97,3 +97,7 @@ git remote add origin git@gitlab.com:sdfsadfsa.git
 git push -u origin --all
 
 git push -u origin --tags
+
+git commit -m "first commit"
+
+git branch -M main
